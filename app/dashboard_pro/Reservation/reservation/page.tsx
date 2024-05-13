@@ -1,6 +1,5 @@
 'use client'
 import ReservationsPro from "@/components/modelReservationPro";
-import App from "@/components/planningWeek";
 import { NextPage } from "next";
 import React, { useState } from "react";
 import Link from "next/link";
