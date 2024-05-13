@@ -15,7 +15,7 @@ const Home: React.FC = () => {
 
   const events = [
     {
-      id:0,
+      id:'0',
       title: 'Nom du service',
       start: '2024-05-18T15:00:00',
       end: '2024-05-18T15:45:00',
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
       
     },
     {
-      id:1,
+      id:'1',
       title: 'Nom du service',
     start: '2024-05-01T08:00:00',
       end: '2024-05-01T09:45:00',
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
       
     },
     {
-      id:2,
+      id:'2',
       title: 'Nom du service',
       start: '2024-05-17T15:00:00',
       end: '2024-05-17T17:00:00',
@@ -65,7 +65,7 @@ const Home: React.FC = () => {
       notesClient:'Lorem ipsum dolor sit amet, cia ut fringilla in dolor sit amet, cia ut frin dolor sit amet, cia ut frin dolor sit amet, cia ut frin.'
     },
     {
-      id:3,
+      id:'3',
       title: 'Nom du service',
       start: '2024-05-18T10:00:00',
       end: '2024-04-18T12:30:00',
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
    
     },
     {
-      id:4,
+      id:'4',
       title: 'Nom du service',
       start: '2024-05-18T12:30:00',
       end: '2024-04-18T14:30:00',
@@ -99,7 +99,7 @@ const Home: React.FC = () => {
       
     },
     {
-      id:5,
+      id:'5',
       title: 'Nom du service',
       start: '2024-05-18T08:00:00',
       end: '2024-05-18T09:30:00',
@@ -116,7 +116,7 @@ const Home: React.FC = () => {
      
     },
     {
-      id:6,
+      id:'6',
       title: 'Nom du service',
       start: '2024-05-19T16:00:00',
       end: '2024-05-19T18:00:00',
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
       
     },
     {
-      id:8,
+      id:'8',
       title: 'Nom du service',
       start: '2024-05-18T08:00:00',
       end: '2024-05-18T09:30:00',
@@ -155,6 +155,7 @@ const Home: React.FC = () => {
   const handleEventClick = (clickInfo: any) => {
     const { event } = clickInfo;
     const { title, start, end, extendedProps } = event;
+    
     const statut = extendedProps.statut;
     const nomParticulier = extendedProps.client;
     const statutClient = extendedProps.statutClient
