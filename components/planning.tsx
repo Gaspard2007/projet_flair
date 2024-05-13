@@ -17,8 +17,8 @@ const Home: React.FC = () => {
     {
       id:'0',
       title: 'Nom du service',
-      start: '2024-05-18T15:00:00',
-      end: '2024-05-18T15:45:00',
+      start: '2024-05-16T15:00:00',
+      end: '2024-05-16T15:45:00',
       statut: 'workIn',
       client: 'Miss kitty',
       statutClient: 'flair',
@@ -51,8 +51,8 @@ const Home: React.FC = () => {
     {
       id:'2',
       title: 'Nom du service',
-      start: '2024-05-17T15:00:00',
-      end: '2024-05-17T17:00:00',
+      start: '2024-05-15T15:00:00',
+      end: '2024-05-15T17:00:00',
       statut: 'cancel',
       client:'Eulalie',
       statutClient: 'flair',
@@ -67,8 +67,8 @@ const Home: React.FC = () => {
     {
       id:'3',
       title: 'Nom du service',
-      start: '2024-05-18T10:00:00',
-      end: '2024-04-18T12:30:00',
+      start: '2024-05-16T10:00:00',
+      end: '2024-04-16T12:30:00',
       statut: 'finish',
       client:'Lila',
       statutClient: 'boutique',
@@ -84,8 +84,8 @@ const Home: React.FC = () => {
     {
       id:'4',
       title: 'Nom du service',
-      start: '2024-05-18T12:30:00',
-      end: '2024-04-18T14:30:00',
+      start: '2024-05-16T12:30:00',
+      end: '2024-04-16T14:30:00',
       statut: 'workIn',
       client:'Jeanne',
       statutClient: 'boutique',
@@ -98,28 +98,12 @@ const Home: React.FC = () => {
       notesClient:'Lorem ipsum dolor sit amet, cia ut fringilla in dolor sit amet, cia ut frin dolor sit amet, cia ut frin dolor sit amet, cia ut frin.'
       
     },
-    {
-      id:'5',
-      title: 'Nom du service',
-      start: '2024-05-18T08:00:00',
-      end: '2024-05-18T09:30:00',
-      statut: 'cancel',
-      client:'Aïsha',
-      statutClient: 'flair',
-      img: '',
-      anneDinscription:'2023',
-      email:'lunaberc@gmail.com',
-      numerosTel: '060101030405',
-      lieu:' 02 rue des Alpes, 75000 Paris, France',
-      tarifs:60,
-      notesClient:'Lorem ipsum dolor sit amet, cia ut fringilla in dolor sit amet, cia ut frin dolor sit amet, cia ut frin dolor sit amet, cia ut frin.'
-     
-    },
+  
     {
       id:'6',
       title: 'Nom du service',
-      start: '2024-05-19T16:00:00',
-      end: '2024-05-19T18:00:00',
+      start: '2024-05-17T16:00:00',
+      end: '2024-05-17T18:00:00',
       statut: 'workIn',
       client:'Violette',
       statutClient: 'flair',
@@ -135,8 +119,8 @@ const Home: React.FC = () => {
     {
       id:'8',
       title: 'Nom du service',
-      start: '2024-05-18T08:00:00',
-      end: '2024-05-18T09:30:00',
+      start: '2024-05-16T08:00:00',
+      end: '2024-05-16T09:30:00',
       statut: 'cancel',
       client:'Aïsha',
       statutClient: 'flair',
