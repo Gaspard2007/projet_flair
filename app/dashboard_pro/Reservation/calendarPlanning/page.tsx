@@ -2,8 +2,6 @@
 
 import PlanningMonth from '@/components/planning';
 import DemoApp from '@/components/planning';
-
-import PlanningWeek from '@/components/planningWeek';
 import { NextPage } from 'next';
 import Link from 'next/link';
 import React, { useState } from 'react';
