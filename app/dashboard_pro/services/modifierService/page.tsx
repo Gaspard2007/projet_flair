@@ -7,8 +7,8 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
+import 'react-quill/dist/quill.snow.css';
 
-// Dynamically import ReactQuill to ensure it's only loaded in the browser environment
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 const ModifierUnService = () => {

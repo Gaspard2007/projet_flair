@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from "react";
+import React, { useState} from "react";
 import dynamic from "next/dynamic";
 import { Switch } from "antd";
 import Box from '@mui/material/Box';
@@ -8,10 +8,12 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import Link from "next/link";
-import ReactQuill from "react-quill";
+
 import 'react-quill/dist/quill.snow.css';
 
 
+
+const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 
 interface Service {
